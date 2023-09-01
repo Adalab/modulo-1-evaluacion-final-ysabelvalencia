@@ -1,14 +1,5 @@
-$maincolor:#6c933e;
-
-@mixin dflexcenter (){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 .header {
-    background-color:$maincolor;
+    background-color:$colorone;
     position: fixed;
     z-index: 100;
     top: 0;
