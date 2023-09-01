@@ -1,0 +1,51 @@
+.shop {
+    height:37.6rem;
+    width: 100vw;
+    border-bottom: 0.1rem solid red;
+    padding-top:2rem;
+    padding-left: 1rem;
+
+    &__title {
+        font-family: $robotoSlab;
+        font-size: 2.2rem;
+        line-height: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+
+    &__textone {
+        font-family: $roboto;
+        color:$colorone;
+        font-size: 1.4rem;
+        line-height: 3rem;
+        text-transform: uppercase;
+    }
+
+    &__texttwo {
+        font-size: 1.8rem;
+        font-family: $roboto;
+        color:$colorthree;
+        line-height: 3rem;
+        text-align: left;
+        height: 18;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+
+    &__link {
+        border: 0.2rem solid $colorone;
+        font-size:2rem;
+        font-family: $roboto;
+        color:$colorone;
+        line-height: 4.5rem;
+        font-weight: 500;
+        padding: 0.5rem 3rem 0.5rem 3rem;
+        border-radius: 3rem;
+    }
+
+
+    
+}
+
+
