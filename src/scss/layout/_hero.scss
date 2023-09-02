@@ -1,11 +1,15 @@
 .hero {
-    min-height: 55rem;
+    min-height: 100vh;
     background-image: url("../images/cover-tiny.jpeg");
     background-position:center right (17%);
     background-size:cover;
     background-position-y: top;
     flex-direction: column;
     @include dflexcenter ();
+        @media (min-width:768px) {
+            height: 100vh;
+            background-size: 150%;
+        }
     
     &__title {
         color:$colorfour;
