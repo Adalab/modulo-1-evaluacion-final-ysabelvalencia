@@ -3,6 +3,7 @@
     background-image: url("../images/cover-tiny.jpeg");
     background-position:center right (17%);
     background-size:cover;
+    background-position-y: top;
     flex-direction: column;
     @include dflexcenter ();
     
@@ -10,12 +11,13 @@
         color:$colorfour;
         font-family: $robotoSlab;
         font-size: 3rem;
-        line-height: 6rem;
+        line-height: 4.6rem;
         text-transform: uppercase;
         font-weight: bold;
-        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
         text-align:center;
-        padding-top: 21rem;
+        padding-top: 26.5rem;
+        padding-bottom:2rem ;
         padding-right:1rem;
     }
     &__text {
@@ -34,7 +36,7 @@
         background-color: $colorfour;
         border-radius: 50%;
         @include dflexcenter ();
-        transform: translateY(5rem);  
+        transform: translateY(1.7rem);  
     }
 }
 

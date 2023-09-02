@@ -1,6 +1,6 @@
 .footer {
 
-    background-color: $colorfive;
+    background-color:$colorthree;
     color:$colorfour;
     font-family: $roboto;
     width: 100%;
@@ -9,13 +9,25 @@
     flex-direction: column;
     align-items: center;
     gap:1rem;
+    
+    &__icon {
+
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: $colorfour;
+        border-radius: 50%;
+        @include dflexcenter ();
+        transform: translateY(-2rem);  
+        
+    }
 
     &__menu {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap:1rem;
+        gap:1.5rem;
+        padding-bottom: 2rem;
 
         .fmenuOne, .fmenuSocial{
             list-style: none;
@@ -34,6 +46,14 @@
         color:$colorfour;
         font-size: 1.4rem;
         text-decoration: none;
+        
+
+        &--heart {
+            color:$colorone;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top:0.5rem;
+        }
     }
 }
 
