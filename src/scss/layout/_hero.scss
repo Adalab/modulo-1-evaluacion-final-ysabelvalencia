@@ -7,8 +7,10 @@
     flex-direction: column;
     @include dflexcenter ();
         @media (min-width:768px) {
-            height: 100vh;
-            background-size: 150%;
+            height: 78.4rem;
+            background-size: 155%;
+            background-repeat: no repeat;
+            background-position-x: 65%;
         }
     
     &__title {
@@ -23,6 +25,13 @@
         padding-top: 26.5rem;
         padding-bottom:2rem ;
         padding-right:1rem;
+
+            @media (min-width:768px) {
+                font-size:7.5rem;
+                line-height:10rem;
+                padding-top: 36rem;
+                padding-bottom: 0;
+            }
     }
     &__text {
         color: $colorfour;
@@ -32,6 +41,11 @@
         text-align: center;
         margin-right: 1rem;
         width: 24.30rem;
+        @media (min-width:768px) {
+            font-size:2.4rem;
+            line-height:2.8rem;
+            width:34rem
+        }
     }
 
     &__icon {
@@ -41,11 +55,20 @@
         border-radius: 50%;
         @include dflexcenter ();
         transform: translateY(1.7rem);
+
+        @media (min-width:768px) {
+            width: 4.5rem;
+            height: 4.5rem;
+        }
         
         &--img {
-            height:0,9rem;
-            width:1,7rem;
+            height:0.9rem;
+            width:1.7rem;
+                @media (min-width:768px) {
+                width: 2rem;
+                height:1.1rem;
+                }
         }
     }
-}
+}    
 
