@@ -27,13 +27,17 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <h1 class="hero__title">Comienzos compartidos</h1>
         <p class="hero__text">
           Todo lo que necesitan para volver al cole con ilusión
         </p>
-        <a class="hero__icon" href="https://adalab.es/">
-          <img src="./assets/images/ico-scroll-down.svg" alt="Flecha hacia abajo" />
+        <a class="hero__icon" href="#back">
+          <img
+            class="hero__icon--img"
+            src="./assets/images/ico-scroll-down.svg"
+            alt="Flecha hacia abajo"
+          />
         </a>
       </section>
 
@@ -48,7 +52,7 @@
         <a class="shop__link"> <span>Comprar</span></a>
       </section>
 
-      <section class="back">
+      <section class="back" id="back">
         <h3 class="back__title">Vuelta al cole</h3>
         <p class="back__text">¡Prepáralos con tus marcas favoritas!</p>
 
@@ -83,36 +87,42 @@
 
     </main>
     <footer class="footer">
-        <a class="footer__icon" href="https://adalab.es/">
-          <img
-            src="./assets/images/ico-arrow.svg"
-            alt="Flecha hacia arriba">
-        </a>
-        <nav class="fmenu">
-          <ul class="fmenuOne">
-            <li class="fmenuOne__item">
-              <a class="flink" href="https://adalab.es/">Zapatillas</a>
-            </li>
-            <li class="fmenuOne__item">
-              <a class="flink" href="https://adalab.es/">Ropa</li>
-            <li class="fmenuOne__item">
-              <a class="flink" href="https://adalab.es/">Niño/a</li>
-            <li class="fmenuOne__item">
-              <a class="flink" href="https://adalab.es/">Destacados</li>
-            <li class="fmenuOne__item">
-              <a class="flink" href="https://adalab.es/">Tips</li>
-          </ul>
-          <ul class="fmenuSocial">
-            <li class="fmenuSocial__item">
-              <a class="flink" href="https://adalab.es/">Twitter</li>
-            <li class="fmenuSocial__item">
-              <a class="flink" href="https://adalab.es/">Instagram</li>
-            <li class="fmenuSocial__item">
-              <a class="flink" href="https://adalab.es/">Youtube</li>
-          </ul>
-        </nav>
-        <p> ©2023 </p>
-        <p> We &#x1F49A;run</p>
-      </footer>
+      <a class="footer__icon" href="#hero">
+        <img src="./assets/images/ico-arrow.svg" alt="Flecha hacia arriba" />
+      </a>
+      <nav class="footer__menu">
+        <ul class="fmenuOne">
+          <li class="fmenuOne__item">
+            <a class="flink" href="https://adalab.es/">Zapatillas</a>
+          </li>
+          <li class="fmenuOne__item">
+            <a class="flink" href="https://adalab.es/">Ropa</a>
+          </li>
+          <li class="fmenuOne__item">
+            <a class="flink" href="https://adalab.es/">Niño/a</a>
+          </li>
+          <li class="fmenuOne__item">
+            <a class="flink" href="https://adalab.es/">Destacados</a>
+          </li>
+          <li class="fmenuOne__item">
+            <a class="flink" href="https://adalab.es/">Tips </a>
+          </li>
+        </ul>
+        <ul class="fmenuSocial">
+          <li class="fmenuSocial__item">
+            <a class="flink" href="https://adalab.es/">Twitter</a>
+          </li>
+          <li class="fmenuSocial__item">
+            <a class="flink" href="https://adalab.es/">Instagram</a>
+          </li>
+          <li class="fmenuSocial__item">
+            <a class="flink" href="https://adalab.es/">Youtube</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__text">&copy; 2023</p>
+      <p class="footer__text">we <span class="footer__text--heart">&#x2764</span> run</p>
+    </footer>
+
   </body>
 </html>
