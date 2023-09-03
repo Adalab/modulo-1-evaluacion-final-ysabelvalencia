@@ -1,5 +1,5 @@
 .hero {
-    min-height: 100vh;
+    height:100vh;
     background-image: url("../images/cover-tiny.jpeg");
     background-position:center right (17%);
     background-size:cover;
@@ -7,9 +7,8 @@
     flex-direction: column;
     @include dflexcenter ();
         @media (min-width:768px) {
-            height: 78.4rem;
+            height:78.3rem;
             background-size: 155%;
-            background-repeat: no repeat;
             background-position-x: 65%;
         }
     
