@@ -1,97 +1,96 @@
 .hero {
-    height:100vh;
-    background-image: url("../images/cover-tiny.jpeg");
-    background-position:center right (17%);
-    background-size:cover;
-    flex-direction: column;
-    @include dflexcenter ();
+  height: 100vh;
+  background-image: url("../images/cover-tiny.jpeg");
+  background-position: center right (17%);
+  background-size: cover;
+  flex-direction: column;
+  @include dflexcenter();
 
-        @media(min-width:768px) {
-            height:78.3rem;
-            background-size: 155%;
-            background-position-x: 65%;
-        }
-        @media(min-width:1280px){
-            height:100vh;
-            background-image: url("../images/cover.jpeg");
-            background-size:100%;
-            background-position-y:center;
+  @media (min-width: 768px) {
+    height: 78.3rem;
+    background-size: 155%;
+    background-position-x: 65%;
+  }
+  @media (min-width: 1280px) {
+    // height: 100vh;
+    background-image: url("../images/cover.jpeg");
+    background-size: 100%;
+    background-position-y: center;
+  }
 
-        }
-    
-    &__title {
-        color:$colorfour;
-        font-family: $robotoSlab;
-        font-size: 3rem;
-        line-height: 4.6rem;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
-        text-align:center;
-        padding-top: 26.5rem;
-        padding-bottom:2rem ;
-        padding-right:1rem;
+  &__title {
+    color: $colorfour;
+    font-family: $robotoSlab;
+    font-size: 3rem;
+    line-height: 4.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
 
-            @media (min-width:768px) {
-                font-size:7.5rem;
-                line-height:10rem;
-                padding-top: 36rem;
-                padding-bottom: 0;
-            }
-
-            @media (min-width:1280px) {
-                font-size:6.5rem;
-                padding-top:31rem;
-                line-height:8rem;
-                
-            }
-        &::first-line {
-             @media (min-width:1280px){
-                word-spacing:100vw;
-            }
-                
-        }
-    }
-    &__text {
-        color: $colorfour;
-        font-family: $roboto;
-        font-size: 1.6rem;
-        line-height: 1.9rem;
-        text-align: center;
-        margin-right: 1rem;
-        width: 24.30rem;
-        @media (min-width:768px) {
-            font-size:2.4rem;
-            line-height:2.8rem;
-            width:34rem
-        }
-        @media (min-width:1280px){
-            width:56.6rem;
-            font-size:2rem;
-        }
+    @media (min-width: 768px) {
+      font-size: 7.5rem;
+      line-height: 10rem;
+      padding-top: 36rem;
+      padding-bottom: 0;
     }
 
-    &__icon {
-        height: 3.82rem;
-        width: 3.82rem;
-        background-color: $colorfour;
-        border-radius: 50%;
-        @include dflexcenter ();
-        transform: translateY(1.7rem);
-
-        @media (min-width:768px) {
-            width: 4.5rem;
-            height: 4.5rem;
-        }
-        
-        &--img {
-            height:0.9rem;
-            width:1.7rem;
-                @media (min-width:768px) {
-                width: 2rem;
-                height:1.1rem;
-                }
-        }
+    @media (min-width: 1280px) {
+      font-size: 6.5rem;
+      padding-top: 31rem;
+      line-height: 8rem;
     }
-}    
+    &::first-line {
+      @media (min-width: 1280px) {
+        word-spacing: 100vw;
+      }
+    }
+  }
+  &__text {
+    color: $colorfour;
+    font-family: $roboto;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    margin-right: 1rem;
+    width: 24.3rem;
+    @media (min-width: 768px) {
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      width: 34rem;
+    }
+    @media (min-width: 1280px) {
+      width: 56.6rem;
+      font-size: 2.2rem;
+    }
+  }
 
+  &__icon {
+    height: 3.82rem;
+    width: 3.82rem;
+    background-color: $colorfour;
+    border-radius: 50%;
+    @include dflexcenter();
+    transform: translateY(1.5rem);
+
+    @media (min-width: 768px) {
+      width: 4.5rem;
+      height: 4.5rem;
+    }
+    @media (min-width: 1280px) {
+      transform: translateY(4rem);
+    }
+
+    &--img {
+      height: 0.9rem;
+      width: 1.7rem;
+      @media (min-width: 768px) {
+        width: 2rem;
+        height: 1.1rem;
+      }
+    }
+  }
+}
