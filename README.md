@@ -17,7 +17,7 @@ Como extra: resolver algunas interacciones usando transiciones.
 En primer lugar debéis realizar la maquetación sobre un diseño dado. Este es el diseño que encontraréis en
 Zeplin:
 
-![](image.png)
+![](./docs/assets/images/version_tablet.png)
 
 
 **Detalles**
