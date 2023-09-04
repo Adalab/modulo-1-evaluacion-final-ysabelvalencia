@@ -3,8 +3,7 @@
   background-image: url("../images/cover-tiny.jpeg");
   background-position: center right (17%);
   background-size: cover;
-  flex-direction: column;
-  @include dflexcenter();
+  @include flexcolcen();
 
   @media (min-width: 768px) {
     height: 78.3rem;
@@ -52,7 +51,7 @@
   &__text {
     color: $colorfour;
     font-family: $roboto;
-    font-size: 1.6rem;
+    font-size: $size2;
     line-height: 1.9rem;
     text-align: center;
     margin-right: 1rem;
@@ -73,7 +72,7 @@
     width: 3.82rem;
     background-color: $colorfour;
     border-radius: 50%;
-    @include dflexcenter();
+    @include flexcolcen();
     transform: translateY(1.5rem);
 
     @media (min-width: 768px) {

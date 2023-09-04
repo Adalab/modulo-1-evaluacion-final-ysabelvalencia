@@ -1,5 +1,5 @@
 .header {
-  @include dflexcenter();
+  @include flexcenter();
   background-color: $colorone;
   position: fixed;
   top: 0;

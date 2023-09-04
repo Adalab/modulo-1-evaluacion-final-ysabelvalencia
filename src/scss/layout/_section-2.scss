@@ -1,16 +1,17 @@
 .shop {
   height: 37.6rem;
-  width: 100%;
+  width: 100vw;
   padding-top: 2rem;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
 
   @media (min-width: 768px) {
-    height: 37.6rem;
+    height: 33.3rem;
     padding: 3.9rem;
   }
   @media (min-width: 1280px) {
+    height: 33rem;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -34,12 +35,12 @@
   &__textone {
     font-family: $roboto;
     color: $colorone;
-    font-size: 1.4rem;
+    font-size: $size1;
     line-height: 3rem;
     order: 0;
     text-transform: uppercase;
     @media (min-width: 768px) {
-      font-size: 1.6rem;
+      font-size: $size2;
     }
     @media (min-width: 1280px) {
       margin-top: 1rem;
@@ -47,18 +48,17 @@
   }
 
   &__texttwo {
-    font-size: 1.8rem;
+    font-size: $size3;
     font-family: $roboto;
     color: $colorthree;
     line-height: 3rem;
     text-align: left;
-    height: 18;
     padding-top: 1rem;
     padding-bottom: 4rem;
     order: 3;
 
     @media (min-width: 768px) {
-      font-size: 2rem;
+      font-size: $size4;
     }
     @media (min-width: 1280px) {
       margin-top: 1rem;
@@ -71,7 +71,7 @@
     border: 0.2rem solid $colorone;
     width: 16rem;
     height: 4.5rem;
-    font-size: 2rem;
+    font-size: $size4;
     font-weight: 500;
     border-radius: 3rem;
     order: 4;
